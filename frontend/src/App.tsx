@@ -7,7 +7,7 @@ import axios from 'axios';
 function App() {
   const [count, setCount] = useState(0);
 
-  const getHello = async () => await axios.get("http://138.2.114.115:8080/api/test");
+  const getHello = async () => await axios.get("https://jjtest.store/api/test");
 
   useEffect(() => {
     console.log(getHello());
