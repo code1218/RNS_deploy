@@ -47,5 +47,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             sudo su
-            chmod +x ~/project/deploy.sh
-            ~/project/deploy.sh
+            chmod +x /home/ubuntu/project/deploy.sh
+            /home/ubuntu/project/deploy.sh
