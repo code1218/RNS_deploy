@@ -13,4 +13,9 @@ public class TestController {
     public ResponseEntity<String> test() {
         return ResponseEntity.ok("Hello World");
     }
+
+    @GetMapping("/oauth2/test")
+    public ResponseEntity<String> test2() {
+        return ResponseEntity.ok("oauth2");
+    }
 }
